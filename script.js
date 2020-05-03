@@ -15,6 +15,7 @@
 //
 $(".save-btn").on("click", function () {
   var saveButtonEl = $(this);
-  var inputEl = saveButtonEl.attr("data-key");
-  var storageKey = saveButtonEl.attr("");
+  var inputEl = saveButtonEl.siblings(".hour-input");
+  var storageKey = saveButtonEl.attr("data-key");
+  localStorage.setItem(storageKey, inputEl.val());
 });
