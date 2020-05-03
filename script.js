@@ -1,7 +1,7 @@
 //  grab user input store in variable
 //
 //
-//
+//add past class changes color
 //
 //
 //
